@@ -1,4 +1,4 @@
-# Zombie - small zombie program for learning/debugging
+# Zombie - small zombie process  for learning/debugging
 
 ## Compile
 ~~~
