@@ -11,7 +11,7 @@ dymanic ELF binary is 18Kb, static (gcc -Wall -g --static   -o zombie zombie.c) 
 You can find statically compiled binary in Releases page.
 
 ## Usage:
-Accepts one argument (int), sleep time. Default value is 30.
+Accepts one argument (int), sleep time. Default value is 0 (sleep forever).
 
 ~~~
 $ ./zombie 50
