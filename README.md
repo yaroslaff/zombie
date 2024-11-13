@@ -19,7 +19,7 @@ Parent process (PID: 1011803) is running, child (PID: 1011804) will become a zom
 Child process (PID: 1011804) is exiting.
 ~~~
 
-When it's running, in ps you can see:
+When it's running, in ps you can see child process in defunct (zombie) state:
 ~~~
 $ ps auxww|grep zombie
 xenon    1011803  0.0  0.0   2364   568 pts/6    S+   20:44   0:00 ./zombie 50
