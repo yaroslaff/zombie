@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <sys/types.h>
 
+char *version = "0.0.1";
+
 int main(int argc, char **argv) {
     pid_t pid = fork();  // Create a new child process
 
